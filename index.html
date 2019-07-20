@@ -7,6 +7,7 @@
   <title>Bazaar Ceramics</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Rubik&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
   <div class="container-fluid">
 
     <!-- ### NAVBAR STUFF ### -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html">
         <img src="/images/logo/bazaar-logo.jpg" alt="Company Logo image" width="150" height="100" id="logo" class="d-inline-block"> <span id="logotext">Bazaar Ceramics</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,9 +48,9 @@
             </div>
           </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">FAQ</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
         </ul>
       </div>
     </nav> <!-- End of NAVBAR -->
@@ -64,14 +65,14 @@
 
       <div class="col-lg-6"> <!-- Second Column-->
 
-        <div class="row text-center align-items-center"> <!-- Top Picture and Text -->
-          <div class="col-lg-7"><p>Gallery showing in January 2019</p></div>
+        <div class="row text-center align-items-center sidepica"> <!-- Top Picture and Text -->
+          <div class="col-lg-7"><p>Annual gallery showing</p></div>
           <div class="col-lg-5">
             <img src="images/homepage/bazaar_gallery.jpg" alt="Home page picture of Bazaar Ceramics" width="180" height="150" id="homePictureB" class="sidePicture"></a>
           </div>
         </div>
 
-        <div class="row text-center align-items-center"> <!-- Bottom Picture and Text -->
+        <div class="row text-center align-items-center sidepicb"> <!-- Bottom Picture and Text -->
           <div class="col-lg-7"><p>Indigenous inspired art pieces</p></div>
           <div class="col-lg-5 align-self-end">
             <img src="images/homepage/bazaar14.jpg" alt="Home page picture of Bazaar Ceramics" width="180" height="150" id="homePictureC" class="sidePicture"></a>
@@ -82,50 +83,48 @@
 
     </div> <!-- End of First Content Area-->
 
-
+    <!-- ### Content Area B ### -->
     <div class="row contentB">
 
-        <div class="col-lg-6 text-center align-items-center"> <!-- First Column / text -->
-          <p class="textA">Bazaar Ceramics Studio has been operating for over 20 years.  We started as a small collective, operating in the picturesque
-            township of Hahndorf, South Australia - known for its quality arts and crafts.  Over the years the studio has passed through a number of
-            transformations. Bazaar Ceramics has a wide range of products to meet the needs of clients both nationally and internationally.  The studio
-            produces exquisite one off sculptural pieces for the individual and corporate collector as well as comissioned pieces for collectors of all types.
-          </p>
+      <div class="col-lg-6 contentBcomp "> <!-- First column / text -->
+        <p class="textA text-center align-items-center">
+          Bazaar Ceramics Studio has been operating for 20 years.  We started as a small collective, 
+          operating in the picturesque township of Hahndorf, South Australia - known for our quality 
+          arts and crafts. Over the years the studio has passed through a number of transformations.  
+          Currently we are well known for producing quality domestic ware and fine individually designed art pieces.  
+        </p>
+      </div> <!-- Enf of left column / text -->
+  
+      <div class="row col-lg-6 contentBSubmit"> <!-- Second Column / Submit feature -->
+  
+        <div class="row col-lg-12 text-center align-items-center"> <!-- right side text / instructions -->
+          <p>Enter your email address below and click Submit to recieve regular product updates, gallery show invites and other special offers</p>
         </div>
   
-
-        <div class="col-lg-6"> <!-- Second Column-->
-  
-          <div class="row text-center align-items-center"> <!-- right side text / instructions -->
-            <div class="col-lg-12">
-              <p>Enter your email address below and click Submit to recieve regular product updates, gallery show invites and other special offers</p>
-            </div>
-          </div>
-  
-          <div class="row text-center align-items-center"> <!-- Bottom Picture and Text -->
-            <div class="col-lg-6"><!-- input Field -->
-              <div id=inputBox>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
-                  </div>
-                  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="inputGroup-sizing-default">
+        <div class="row col-lg-12 text-center align-items-center">  <!-- Input field section -->
+          <div class="col-lg-6"><!-- input Field -->
+            <div id=inputBox>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
                 </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="inputGroup-sizing-default">
               </div>
-            </div> <!-- End of Input Div -->
-                    
-            <div class="col-lg-6 text-center align-items-center">
-              <button type="button" class="btn-lg btn-primary">Submit</button>
             </div>
+          </div> <!-- End of Input Div -->
+                    
+          <div class="col-lg-6 text-center align-items-center">
+            <button type="button" class="btn-lg btn-primary">Submit</button>
           </div>
           
-        </div>
-        
+        </div> <!-- End of Input field section-->       
+     
       </div> <!-- End of Second Column-->
   
-    </div> <!-- End of First Content Area-->
+    </div> <!-- End of Second Content Area-->
 
-  </div><!-- End of container Div-->
+
+  </div> <!-- End of container Div-->
   
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
